@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
+    <title>Salon kosmetyczny</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+
+
+    <!-- TOPBAR -->
+    <div class="topbar container">
+        <div class="row justify-content-between my-2">
+            <div class="col-12 col-sm-8 d-flex d-sm-block justify-content-around p-0">
+                <a class="pr-sm-3" href="tel:456546546">
+                    <i class="icon-phone"></i>
+                    123 456 789</a>
+                <a href="mailto:johndoe@gmail.com">
+                    <i class="icon-mail"></i>
+                    johndoe@gmail.com</a>
+            </div>
+            <div class="col-sm-4 col-lg-2 justify-content-sm-between d-none d-sm-flex">
+                <i class="icon-facebook"></i>
+                <i class="icon-twitter"></i>
+                <i class="icon-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- HEADER (NAVBAR + HERO) -->
+    <header class="container-fluid position-relative contact-header">
+        <!-- NAVBAR -->
+        <div class="w-100 position-absolute nav-container py-1">
+            <div class="container">
+                <nav class="row navbar navbar-expand-xl navbar-dark">
+                    <a class="navbar-brand" href="index.html"><b>TERA</b>PIE</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html#">HOME <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#about">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#services">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#services">EXPERTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#testimonials">TESTIMONIALS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="navbtn btn" type="button">BOOK NOW</button>
+                            </li>
+                            <li class="nav-item dropdown">
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- CONTACT -->
+    <section class="contact container my-5">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-11 col-md-5">
+                <h2>Salon SPA</h2>
+                <ul>
+                    <li>ul. Główna 1</li>
+                    <li>42-200 Częstochowa</li>
+                    <li><a href="tel:456546546">123 456 789</a></li>
+                    <li><a href="mailto:johndoe@gmail.com">Johndoe@gmail.com</a></li>
+                </ul>
+                <img class="img-fluid" src="https://img3.stockfresh.com/files/a/all32/m/23/8185577_stock-photo-accessories-for-spa.jpg"
+                    alt="">
+            </div>
+            <div class="col-11 col-md-5">
+                <!-- Default form contact -->
+                <form class="text-center border border-light p-5 ">
+
+                    <p class="h4 mb-4">Formularz kontaktowy</p>
+
+                    <!-- Name -->
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Imię i nazwisko">
+
+                    <!-- Email -->
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Treść wiadomości"></textarea>
+                    </div>
+
+                    <!-- Send button -->
+                    <button class="btn btn-block border-shadow" type="submit">Wyślij</button>
+
+                </form>
+                <!-- Default form contact -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="contact-map container-fluid">
+        <div class="row h-100">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6595869.215844058!2d-124.11379609306044!3d36.1753319155744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2962cde12c933%3A0xb147fa8d04fed30c!2sMassage+Masters+Therapeutic+Day+Spa!5e0!3m2!1spl!2spl!4v1552376473524"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid mb-0">
+        <div class="row">
+            <div class="container">
+                <div class="row my-5 text-white">
+                    <div class="col-12 col-md-4 col-lg-3 text-center text-md-left my-4 my-md-0 mb-5 mb-md-0">
+                        <p style="font-size: 2rem;"><b>TERA</b>PIE</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum beatae non nemo est vel,
+                            natus hic.</p>
+                        <i class="icon-facebook2"></i>
+                        <i class="mx-3 icon-twitter"></i>
+                        <i class="icon-youtube"></i>
+                        <p class="mb-0 align-bottom">
+                            Ventrum
+                            <script type="text/javascript">
+                                document.write(new Date().getFullYear());
+                            </script>
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-3 col-lg-2 text-center text-md-left my-4 my-md-0">
+                        <p><b>Treatment Hours</b></p>
+                        <p class="mb-0">Friday & Saturday</p>
+                        <p>09:00 AM - 11 AM</p>
+
+                        <p class="mb-0">Monday & Tuesday</p>
+                        <p>09:00 AM - 11 AM</p>
+                    </div>
+
+                    <div class="col-10 col-md-5 col-lg-3 text-center text-md-left my-4 my-md-0 mx-auto">
+                        <p><b>Treatment Hours</b></p>
+                        <div class="tweet d-flex">
+                            <i class="icon-twitter mr-4"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolores.</p>
+                        </div>
+                        <div class="tweet d-flex">
+                            <i class="icon-twitter mr-4"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolores.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-7 col-lg-4 text-center text-lg-left mt-4 mt-lg-0 mx-auto">
+                        <p><b>INSTAGRAM</b></p>
+                        <div class="instagram">
+                            <img src="images/instagram-1.jpg" alt="">
+                            <img src="images/instagram-2.jpg" alt="">
+                            <img src="images/instagram-3.jpg" alt="">
+                            <img src="images/instagram-4.jpg" alt="">
+                            <img src="images/instagram-5.jpg" alt="">
+                            <img src="images/instagram-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
